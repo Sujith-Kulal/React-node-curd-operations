@@ -58,8 +58,6 @@ The app allows users to interact with a dynamic database through a user-friendly
 
 
 
----
-
 ## 🛠️ Tech Stack
 
 - **Frontend**: React.js, Axios, Bootstrap (optional for UI)
@@ -67,11 +65,4 @@ The app allows users to interact with a dynamic database through a user-friendly
 - **Database**: MySQL (XAMPP)
 - **Tools**: Postman (for API testing), VS Code
 
----
 
-## 🙌 Acknowledgments
-
-- Thanks to open-source libraries and the developer community.
-- Special thanks to [ChatGPT 🤖] for assistance during development!
-
----
