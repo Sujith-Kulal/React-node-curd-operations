@@ -1,0 +1,83 @@
+*why does npx-react-app depreaciated what's the new approach
+
+old approach npx create-react-app my-app
+
+latest approach npm create vite@latest my-app --template react(most used)
+
+
+React is exclusively a UI library. Vite is a JS bundler. Vite takes your React JSX code and transforms it into raw HTML, CSS, and JS files that can be run by most browsers. Those files are then hosted and served to end users.
+
+*npx stands for Node Package eXecute. It comes with Node.js 
+npm → Installs packages permanently (globally or locally).
+npx → Executes packages temporarily without installing them globally.
+
+
+
+
+*******************
+Info
+----
+Latest React V is 19
+*******************
+
+++++++++++++++++
+packages
+=============
+bootstrap
+react-router-dom
+
+
+
+
+======================================
+deployment React
+
+
+Deploy Your React App on Vercel
+Step 1: Install Vercel CLI
+First, install the Vercel CLI on your system if you haven’t already.
+
+npm install -g vercel
+
+Step 2: Initialize Vercel in Your React Project
+Navigate to your React project folder and run:
+
+vercel login
+
+vercel
+
+It will prompt you to log in to Vercel using GitHub, GitLab, or email.
+
+After logging in, run vercel again to deploy.
+
+Choose the following options:
+Framework: Select React
+Directory to deploy: build
+Configure default settings?: Yes
+Vercel will build and deploy your React app. After completion, it will give you a public URL like:
+
+example:
+https://your-app.vercel.app
+
+Step 3: Push to GitHub for Automatic Deployments
+Vercel automatically deploys apps when you push to GitHub. If your code is not in GitHub yet:
+
+Initialize a Git repo
+
+git init
+git add .
+git commit -m "Initial commit"
+Push it to GitHub
+
+git remote add origin https://github.com/your-username/your-repo.git
+git push -u origin main
+Connect GitHub to Vercel
+Go to Vercel Dashboard
+Click New Project → Import your GitHub repo
+Click Deploy
+Now, every time you push to GitHub, Vercel will automatically redeploy 🚀
+
+
+
+
+
