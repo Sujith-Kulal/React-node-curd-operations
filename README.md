@@ -55,7 +55,7 @@ The app allows users to interact with a dynamic database through a user-friendly
 ---
 
 ## 📷 Screenshots
-
+<img src ="https://github.com/Sujith-Kulal/React-node-curd-operations/blob/61806854ba425bfc5cf63910a467aac2ec790e98/Screenshot%202025-04-28%20110830.png">
 
 
 ## 🛠️ Tech Stack
